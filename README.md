@@ -17,3 +17,44 @@ This project includes:
 
 ## 📁 Project Structure
 
+churn_project/
+│
+├── data/
+│ └── churn.csv # Dataset file
+│
+├── model/
+│ ├── churn_model.pkl # Trained ML model
+│ └── columns.pkl # Feature columns used during training
+│
+├── churn_notebook.ipynb # Data exploration, model training
+├── app.py # Streamlit web application
+├── requirements.txt # Python dependencies
+└── README.md # Project description
+
+
+---
+
+## 🧠 Technologies Used
+
+- Python
+- Pandas & NumPy
+- Scikit-learn (Random Forest Classifier)
+- Streamlit (for frontend UI)
+- Joblib (for saving model)
+
+---
+
+## 📊 Dataset
+
+Dataset used: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)  
+- Features include: `tenure`, `contract type`, `payment method`, `monthly charges`, etc.  
+- Target column: `Churn` (Yes/No)
+
+---
+
+## 🚀 How to Run the Project
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/churn-prediction-app.git
+   cd churn-prediction-app
