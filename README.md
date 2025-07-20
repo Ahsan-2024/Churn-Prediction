@@ -52,9 +52,4 @@ Dataset used: [Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/t
 
 ---
 
-## 🚀 How to Run the Project
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/churn-prediction-app.git
-   cd churn-prediction-app
